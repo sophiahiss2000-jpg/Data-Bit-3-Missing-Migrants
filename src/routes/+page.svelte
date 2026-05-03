@@ -154,7 +154,9 @@
 					what remained of functioning state authority along key transit routes, making it
 					nearly impossible to identify — let alone cooperate with — any reliable local
 					counterpart.
-		</div>
+			
+				</p>
+			</div>
 
 			
 	</article>
