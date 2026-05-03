@@ -1,0 +1,40 @@
+:root {
+	--ink: #1a1714;
+	--ink-light: #4a4540;
+	--ink-faint: #8a837a;
+	--parchment: #f5f2ed;
+	--parchment-dark: #ede9e2;
+	--accent-sea: #2563a8;
+	--accent-sand: #c04a1e;
+	--accent-sea-pale: #dbeafe;
+	--accent-sand-pale: #fde8df;
+	--rule: #ccc5bb;
+	--font-display: 'Playfair Display', Georgia, serif;
+	--font-body: 'DM Sans', system-ui, sans-serif;
+	--measure: 68ch;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 18px;
+	background: var(--parchment);
+	color: var(--ink);
+}
+
+body {
+	font-family: var(--font-body);
+	font-weight: 300;
+	line-height: 1.75;
+	background: var(--parchment);
+	min-height: 100vh;
+}
+
+::selection {
+	background: var(--accent-sea-pale);
+	color: var(--ink);
+}
