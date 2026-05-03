@@ -82,7 +82,7 @@
 				But according to UNHCR, the deadliest stretch of the journey often happens long before
 				anyone reaches the water.
 			</p>
-
+		</div>
 		<!-- Pull quote / hook -->
 		<div class="hook-block">
 			<div class="hook-rule"></div>
