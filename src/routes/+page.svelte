@@ -92,9 +92,11 @@
 				<em>Unknown and anonymous.</em>"
 			</blockquote>
 			<cite class="hook-cite">
-				Alessandra Morelli — Head of UNHCR Niger
-			</cite>
-			<div class="hook-rule"></div>
+			<a href="https://data.unhcr.org/fr/documents/details/69994" target="_blank" rel="noopener">
+				Alessandra Morelli, UNHCR Niger
+			</a>
+		</cite>
+		<div class="hook-rule"></div>
 		</div>
 
 			<p>
@@ -232,7 +234,11 @@
 		color: var(--ink-faint);
 		font-style: normal;
 	}
-
+	.hook-cite a {
+			color: var(--ink-faint);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
 	/* Article header */
 	.article-header {
 		margin: 2.5rem 0 2rem;
