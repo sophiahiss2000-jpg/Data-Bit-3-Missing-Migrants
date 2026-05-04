@@ -5,33 +5,13 @@
 
 A data-driven editorial piece on migrant mortality in the Mediterranean and the Sahara Desert, built with SvelteKit and D3.js.
 
+🔗 **Live site:** [https://data-journalism-26.github.io/data-bit-3-sophiahiss3/](https://data-journalism-26.github.io/data-bit-3-sophiahiss3/)
+
 ## Data
 
 Source: [Missing Migrants Project](https://missingmigrants.iom.int) — International Organization for Migration (IOM), 2014–2024.
 
 The R script `Data_Cleaning_Missing_Migrants_Project` handles data cleaning and aggregation from the raw Excel file into `static/data/Missing_Dead_regions_2014-2024`.
-
-## Development
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173).
-
-## Build & Deploy
-
-```bash
-npm run build
-```
-
-This project deploys automatically to GitHub Pages via the workflow in `.github/workflows/deploy.yml` on every push to `main`.
-
-> **Note:** If your repo is at `username.github.io/data-bit-3-sophia` (not a root domain), uncomment and set the `base` path in `svelte.config.js`:
-> ```js
-> base: process.env.NODE_ENV === 'production' ? '/data-bit-3-sophia' : ''
-> ```
 
 ## Tech Stack
 
