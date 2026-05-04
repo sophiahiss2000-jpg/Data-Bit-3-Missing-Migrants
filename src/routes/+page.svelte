@@ -105,7 +105,7 @@
 				Investigations happen. NGOs monitor. 
 			</p>
 			<p>
-				In Northern Africa — the Sahara crossing routes that feed into , Algeria and Morocco — the same decade recorded just
+				In Northern Africa — the Sahara crossing routes that feed into Algeria and Morocco — the same decade recorded just
 				<strong>{sahTotal.toLocaleString()} deaths</strong>.
 				That sounds like less. It isn't.
 			</p>
