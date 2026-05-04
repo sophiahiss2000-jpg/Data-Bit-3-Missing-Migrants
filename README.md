@@ -21,7 +21,7 @@ data-bit-3-sophiahiss3/
 │   ├── routes/
 │   │   ├── +layout.js
 │   │   ├── +layout.svelte
-│   │   └── +page.svelte                       # Main article & visualization
+│   │   └── +page.svelte                       # Main article & visualization 
 │   ├── app.css                                # Global styles
 │   └── app.html                               # HTML shell
 ├── static/
