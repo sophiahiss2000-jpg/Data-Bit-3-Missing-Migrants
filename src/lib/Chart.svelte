@@ -8,7 +8,7 @@
 	let width = $state(0);
 
 	const HEIGHT = 280;
-	const MARGIN = { top: 16, right: 12, bottom: 36, left: 52 };
+	const MARGIN = { top: 16, right: 12, bottom: 52, left: 52 };
 
 	const COLOR_SEA  = '#2563a8';
 	const COLOR_SAND = '#c04a1e';
@@ -77,7 +77,7 @@
 				<rect x={x + halfW + 1} y={yScale(d.sah)} width={halfW - 1} height={innerH - yScale(d.sah)}
 					fill="none" stroke={COLOR_SAND} stroke-width="1.5" stroke-dasharray="4 2" />
 				<text x={x + barW / 2} y={innerH + 18} text-anchor="middle"
-					font-family="'DM Sans', sans-serif" font-size="11" fill="#8a837a">{d.year.slice(2)}</text>
+					font-family="'DM Sans', sans-serif" font-size="10" fill="#8a837a" transform="rotate(-35, {x + barW / 2}, {innerH + 18})">{d.year}</text>
 			{/each}
 
 			<line x1={0} x2={innerW} y1={innerH} y2={innerH} stroke="#1a1714" stroke-width="1" />
