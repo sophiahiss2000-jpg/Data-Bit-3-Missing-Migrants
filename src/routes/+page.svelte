@@ -236,7 +236,6 @@
 	/* Article header */
 	.article-header {
 		margin: 2.5rem 0 2rem;
-		border-top: 3px double var(--rule);
 		padding-top: 2rem;
 	}
 
