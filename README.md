@@ -9,7 +9,7 @@ A data-driven editorial piece on migrant mortality in the Mediterranean and the 
 
 Source: [Missing Migrants Project](https://missingmigrants.iom.int) — International Organization for Migration (IOM), 2014–2024.
 
-The R script `Q516_ArabBarometer.R` handles data cleaning and aggregation from the raw Excel file into `static/data/map_data_df.csv`.
+The R script `Data_Cleaning_Missing_Migrants_Project` handles data cleaning and aggregation from the raw Excel file into `static/data/Missing_Dead_regions_2014-2024`.
 
 ## Development
 
