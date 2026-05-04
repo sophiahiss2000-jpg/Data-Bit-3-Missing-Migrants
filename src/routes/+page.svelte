@@ -29,7 +29,7 @@
 		<header class="article-header">
 			<h1>The Deaths We Don't Count</h1>
 			<p class="deck">
-				The Mediterranean dominates headlines. But the deadliest leg
+				Migration tragedies in the Mediterranean dominate headlines. But the deadliest leg
 				of the journey often ends in the sand, without a witness.
 			</p>
 		</header>
