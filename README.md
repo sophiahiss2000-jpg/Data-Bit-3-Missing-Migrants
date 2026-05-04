@@ -7,6 +7,33 @@ A data-driven editorial piece on migrant mortality in the Mediterranean and the 
 
 🔗 **Live site:** [https://data-journalism-26.github.io/data-bit-3-sophiahiss3/](https://data-journalism-26.github.io/data-bit-3-sophiahiss3/)
 
+# Project Structure
+
+data-bit-3-sophiahiss3/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml                         # GitHub Pages deployment workflow
+├── .vscode/
+│   └── extensions.json
+├── src/
+│   ├── lib/
+│   │   └── Chart.svelte                       # D3 bar chart component
+│   ├── routes/
+│   │   ├── +layout.js
+│   │   ├── +layout.svelte
+│   │   └── +page.svelte                       # Main article & visualization
+│   ├── app.css                                # Global styles
+│   └── app.html                               # HTML shell
+├── static/
+│   ├── data/
+│   │   └── Missing_Dead_regions_2014-2024.csv # Processed data file
+│   └── favicon.png
+├── Data_Cleaning_Missing_Migrants_Project.R   # R script for data cleaning
+├── package.json
+├── svelte.config.js
+├── tsconfig.json
+└── vite.config.ts
+
 ## Data
 
 Source: [Missing Migrants Project](https://missingmigrants.iom.int) — International Organization for Migration (IOM), 2014–2024.
