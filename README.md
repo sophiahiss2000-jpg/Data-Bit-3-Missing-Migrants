@@ -47,6 +47,10 @@ The R script `Data_Cleaning_Missing_Migrants_Project` handles data cleaning and 
 - Playfair Display + DM Sans (Google Fonts)
 - GitHub Pages for hosting
 
+## AI disclosure 
+
+Claude Code supported the design of the HTML page; the data-download and processing workflow; troubleshooting and refinement of the code that produces the chart. Editorial decisions, data wrangling, analysis and interpretation, as well as the writing, are the author's own.
+
 ## License
 
 Data: © IOM Missing Migrants Project. Code: MIT.
