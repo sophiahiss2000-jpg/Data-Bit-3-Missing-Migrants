@@ -5,7 +5,7 @@
 
 A data-driven editorial piece on migrant mortality in the Mediterranean and the Sahara Desert, built with SvelteKit and D3.js.
 
-🔗 **Live site:** [https://data-journalism-26.github.io/data-bit-3-sophiahiss3/](https://data-journalism-26.github.io/data-bit-3-sophiahiss3/)
+🔗 **Live site:** https://sophiahiss2000-jpg.github.io/Data-Bit-3-Missing-Migrants/
 
 # Project Structure
 
