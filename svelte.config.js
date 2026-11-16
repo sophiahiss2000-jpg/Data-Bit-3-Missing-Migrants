@@ -1,20 +1,27 @@
+
 import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	compilerOptions: {
+		runes: ({ filename }) =>
+			filename.split(/[/\\]/).includes('node_modules')
+				? undefined
+				: true
+	},
 	kit: {
+		paths: {
+			base: process.env.NODE_ENV === 'production'
+				? '/Data-Bit-3-Missing-Migrants'
+				: ''
+		},
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: '404.html',
+			fallback: undefined,
 			precompress: false,
 			strict: true
-		}),
-		paths: {
-			// Uncomment and set to your repo name if deploying to username.github.io/repo-name
-			// base: process.env.NODE_ENV === 'production' ? '/data-bit-3-sophia' : ''
-			base: ''
-		}
+		})
 	}
 };
 
